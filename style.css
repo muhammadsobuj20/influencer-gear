@@ -104,11 +104,76 @@ main>section{
 .sponsers-container{
  display: grid;
  grid-template-columns: repeat(7, 1fr);
- justify-content: ;
  align-items: center;
  gap: 64px;
  margin-left: 20px;
 }
+
+
+
+.section-title{
+text-align: center;
+margin-bottom: 30px;
+font-size: 1.8rem;
+font-weight: 600;
+padding: 12px;
+}
+
+
+.card-container{
+margin-bottom: 40px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 45px;
+margin-left: 20PX;
+}
+
+.card-content{
+background-color: rgba(255, 255, 255, 1);
+width: 330px;
+height: 470px;
+padding: 16px;
+/* border: 1px solid gray; */
+box-shadow: -2px -2px 10px 0 rgba(8,3,3,0.75);
+border-radius: 5px;
+}
+
+card-image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-title{
+font-size: 1.8rem;
+font-weight: 500;
+margin-top: 16px;
+}
+
+.price{
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 150%;
+}
+
+ #rating{
+color:Orange ;
+margin-top: 15px;
+}
+
+.rating-number{
+font-weight: 700;
+font-size: 0.9rem;
+}
+
+.card-description{
+width: 196px;
+height: 61px;
+font-size: 0.9rem;
+font-weight: 700;
+margin-top: 15px;
+}
+
+
 
 
 
