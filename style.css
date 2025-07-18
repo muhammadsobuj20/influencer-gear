@@ -95,8 +95,20 @@ background-repeat: no-repeat;
 }
 
 /* main section start now  */
+main>section{
+    max-width: 1440px;
+    margin: 0 auto;
+   margin-top: 100px;
+}
 
-
+.sponsers-container{
+ display: grid;
+ grid-template-columns: repeat(7, 1fr);
+ justify-content: ;
+ align-items: center;
+ gap: 64px;
+ margin-left: 20px;
+}
 
 
 
@@ -104,11 +116,25 @@ background-repeat: no-repeat;
 @media screen and (max-width:576px) {
     .navbar,
     .nav-links,
-    .banner-container{
-        flex-direction: column;
+    .banner-container {
+    flex-direction: column;
+    }
+    
+    .sponsers-container{
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .banner-image{
         width: 100%;
     }
+   .sponsers-container, img{
+   margin-top: 15px;
+   }
+
+   .banner-content{
+  text-align: center;
+  order: 2;
+  margin: 0;
+
+   }
 }
