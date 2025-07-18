@@ -13,6 +13,10 @@
     color: rgba(58, 58, 58, 1);
 }
 
+.bg-color{
+    background-color: rgba(255, 255, 255, 1);
+}
+
 
 /* header and navigation styles */
 
@@ -47,4 +51,64 @@ font-size: 1rem;
 .nav-link{
 text-decoration: none;
 color: rgba(58, 58, 58, 1);
+}
+
+/* banner section styles */
+.banner-container{
+justify-content: space-between;
+align-items: center;
+}
+.banner-content{
+max-width: 582px;
+ margin-left: 30px;
+}
+
+.banner-title{
+font-size: 3.2rem;
+font-weight: 700;
+line-height: 70px;
+}
+
+.banner-description{
+font-weight: 600;
+line-height: 100%;
+}
+
+.btn-primary{
+background-color: rgba(224, 44, 109, 1);
+color: #fff;
+font-weight: 700;
+padding: 10px 24px;
+border-radius: 41px;
+border: none;
+margin-top:12px ;
+
+}
+
+
+.banner-image{
+background-image: url(./images/Circle\ design.svg);
+background-size: contain;
+background-repeat: no-repeat;
+ margin-right: 30px;
+ 
+}
+
+/* main section start now  */
+
+
+
+
+
+/* media query for mobile */
+@media screen and (max-width:576px) {
+    .navbar,
+    .nav-links,
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .banner-image{
+        width: 100%;
+    }
 }
