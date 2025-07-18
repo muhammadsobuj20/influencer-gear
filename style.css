@@ -3,3 +3,48 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.text-color-dark{
+    color: rgba(58, 58, 58, 1);
+}
+
+
+/* header and navigation styles */
+
+.header-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navbar{
+justify-content: space-between;
+align-items: center;
+
+}
+
+.brand{
+font-size: 1.5rem;
+font-weight: 700;
+margin: 34px;
+}
+
+.nav-links{
+align-items: center;
+
+}
+
+.nav-item{
+list-style: none;
+margin: 34px;
+font-weight: 600;
+font-size: 1rem;
+}
+
+.nav-link{
+text-decoration: none;
+color: rgba(58, 58, 58, 1);
+}
