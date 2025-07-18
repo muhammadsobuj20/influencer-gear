@@ -119,13 +119,14 @@ font-weight: 600;
 padding: 12px;
 }
 
-
+/* featued ana card styles */
 .card-container{
 margin-bottom: 40px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 45px;
-margin-left: 20PX;
+margin-left: 30PX;
+/* margin-right: 0; */
 }
 
 .card-content{
@@ -194,6 +195,22 @@ color: rgba(10, 8, 38, 1);
 .featured-description{
     font-weight: 700;
    line-height: 28px;
+}
+
+
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 30px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 60px;
+}
+.footer-title{
+    font-size: 1.9rem;
+    font-weight: 700;
 }
 
 
